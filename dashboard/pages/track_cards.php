@@ -69,11 +69,10 @@ if ($query1->num_rows > 0) {
     $card1 = <<<card
 <div class="container">
     <div class="row">
-        
         <span class="mb-4" >Card will be available(Active) in $dif Hour(s) time.</span>
-
+        <span class="mb-4" >A mail will be sent to you with updates.</span>
         <div class="progress">
-                <span class="sr-only">Complete</span>
+<!--                <span class="sr-only">Complete</span>-->
                     <div style="width: $width%" class="progress-bar progress-bar-success" role="progressbar" >
                 <span class="sr-only">Complete</span>
             </div>
@@ -100,8 +99,9 @@ if ($query2->num_rows > 0){
 <div class="container">
     <div class="row">
         <span class="mb-4" >Card will be available(Active) in $dif Hour(s) time.</span>
+        <span class="mb-4" >A mail will be sent to you with updates.</span>
         <div class="progress">
-                <span class="sr-only">Complete</span>
+<!--                <span class="sr-only">Complete</span>-->
                     <div style="width: $width%" class="progress-bar progress-bar-success" role="progressbar" >
                 <span class="sr-only">Complete</span>
             </div>
